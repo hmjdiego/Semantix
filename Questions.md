@@ -1,5 +1,5 @@
 1 - Qual o objetivo do comando cache em Spark?
-R - O objetivo é permitir que os arquivos que estão sendo trabalhados sejam armazenados em memória, com isso facilitando o acesso aos dados ou arquivos com mais rapidez e facilidade já que estão disponíveis e gravados em cash.
+R - O objetivo é permitir que os arquivos que estão sendo trabalhados sejam armazenados em memória, com isso facilitando o acesso aos dados ou arquivos com mais rapidez e facilidade já que estão disponíveis e gravados em cache.
 
 
 2 - O mesmo código implementado em Spark é normalmente mais rápido que a implementação equivalente em
@@ -18,7 +18,7 @@ De forma consistente e "resiliente" tolerantes a falhas, distribuída podendo es
 
 5 - GroupByKey é menos eficiente que reduceByKey em grandes dataset. Por quê?
 R - O Groupbykey tansmite mais dados durante seus processos de mapping, o que pode consumir memória excessiva
-O Reducebykey, o dado é agrupado/combinado em uma chave única dentro de cada uma das partições de memória e então é distribuído, reduzindo a quantidade de dados trafegados
+O Reducebykey, o dado é agrupado/combinado em uma chave única dentro de cada uma das partições de memória e então é distribuído, reduzindo a quantidade de dados trafegados.
 
 6 - Explique o que o código Scala abaixo faz.
 
